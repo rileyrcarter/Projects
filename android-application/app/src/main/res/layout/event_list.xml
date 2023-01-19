@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="0dp"
+    android:layout_weight="0.5"
+    tools:showIn="@layout/activity_profile"
+    android:id="@+id/eventL"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/guideline"
+    app:layout_goneMarginTop="@id/guideline">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:id="@+id/eventList"
+        >
+
+        <TextView
+            android:id="@+id/eventBox01"
+            android:layout_width="fill_parent"
+            android:layout_height="180dp"
+            android:text="Event Name\nEvent Sponsor\nCategory\nEvent Date   Event Time\nCost\n\n"
+            android:background="@color/neutral"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:paddingBottom="10dp"
+            />
+
+        <TextView
+            android:id="@+id/eventBox02"
+            android:layout_width="fill_parent"
+            android:layout_height="180dp"
+            android:text="Event Name\nEvent Sponsor\nCategory\nEvent Date   Event Time\nCost\n\n"
+            android:background="@color/neutral"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:paddingBottom="10dp"
+            app:layout_constraintTop_toBottomOf="@+id/eventBox01"
+            />
+
+        <TextView
+            android:id="@+id/eventBox03"
+            android:layout_width="fill_parent"
+            android:layout_height="180dp"
+            android:text="Event Name\nEvent Sponsor\nCategory\nEvent Date   Event Time\nCost\n\n"
+            android:background="@color/neutral"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:paddingBottom="10dp"
+            app:layout_constraintTop_toBottomOf="@+id/eventBox02"
+            />
+
+        <TextView
+            android:id="@+id/eventBox04"
+            android:layout_width="fill_parent"
+            android:layout_height="180dp"
+            android:text="Event Name\nEvent Sponsor\nCategory\nEvent Date   Event Time\nCost\n\n"
+            android:background="@color/neutral"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:paddingBottom="10dp"
+            app:layout_constraintTop_toBottomOf="@+id/eventBox03"
+            />
+
+        <TextView
+            android:id="@+id/eventBox05"
+            android:layout_width="fill_parent"
+            android:layout_height="180dp"
+            android:text="Event Name\nEvent Sponsor\nCategory\nEvent Date   Event Time\nCost\n\n"
+            android:background="@color/neutral"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:paddingBottom="10dp"
+            app:layout_constraintTop_toBottomOf="@+id/eventBox04"
+            />
+
+        <TextView
+            android:id="@+id/eventBox06"
+            android:layout_width="fill_parent"
+            android:layout_height="180dp"
+            android:text="Event Name\nEvent Sponsor\nCategory\nEvent Date   Event Time\nCost\n\n"
+            android:background="@color/neutral"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:paddingBottom="10dp"
+            app:layout_constraintTop_toBottomOf="@+id/eventBox05"
+            />
+
+        <TextView
+            android:id="@+id/eventBox07"
+            android:layout_width="fill_parent"
+            android:layout_height="180dp"
+            android:text="Event Name\nEvent Sponsor\nCategory\nEvent Date   Event Time\nCost\n\n"
+            android:background="@color/neutral"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:paddingBottom="10dp"
+            app:layout_constraintTop_toBottomOf="@+id/eventBox06"
+            />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
