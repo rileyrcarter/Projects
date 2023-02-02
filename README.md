@@ -3,7 +3,14 @@
 ## Technical Skills Overview:
 
 #### Programming Languages: 
--	Java, C++, Python, HTML&CSS, SQL, Go, JavaScript, XML
+-	Java
+-	C & C++
+-	Python
+-	HTML & CSS
+-	SQL
+-	JavaScript
+-	Go
+-	XML
 
 #### Tools:
 -	React
