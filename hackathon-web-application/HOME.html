@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TACO Inc.</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      @font-face{
+        font-family: "Goldoni";
+        src: url("fonts/Goldoni.otf");
+      }
+
+      .clearfloat{
+        clear: both;
+      }
+
+      #container{
+        width: 1200px;
+      }
+
+      #selections{
+        width: 1200px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .check{
+        padding-left: 80px;
+        padding-top: 90px;
+        color: white;
+        font-size: 2em;
+      }
+      .circle{
+        background-color: blue;
+        border-radius: 50%;
+        width: 300px;
+        height: 300px;
+        margin-left: 75px;
+        margin-bottom: 25px;
+        float: left;
+      }
+
+      #question{
+        margin-left: auto;
+        margin-right: auto;
+      }
+      #header{
+        width: 1200px;
+      }
+      #flowchart{
+        position: relative;
+        top: 8px;
+        right: 50px;
+      }
+      #logo
+      {
+        position: relative;
+        top: 8px;
+      }
+
+
+
+    </style>
+  </head>
+
+  <body>
+    <div id="container">
+      <!-- HEADER: -->
+      <div id="header">
+        <p id="logo"> Drugology by Taco Inc. </p>
+        <a href="chat.png">Should I call 911?</a>
+      </div>
+
+      <div id="question">
+        <p> Select a drug combination to see the potential adverse effects. </p>
+
+      </div>
+
+      <div id="selections">
+        <form action="Output.html">
+          <div class="circle">
+            <div class="check">
+              <input class="buttons" id="alcohol" type="checkbox" name="drug" value="Alcohol">
+              <label for="alcohol">Alcohol</label>
+            </div>
+          </div>
+
+          <div class="circle">
+            <div class="check">
+              <input class="buttons" id="caffeine" type="checkbox" name="drug" value="Caffeine">
+              <label for="caffeine">Caffeine</label>
+            </div>
+          </div>
+
+          <div class="circle">
+            <div class="check">
+              <input class="buttons" id="cannabis" type="checkbox" name="drug" value="Cannabis">
+              <label for="cannabis">Cannabis</label>
+            </div>
+          </div>
+
+          <div class="circle">
+            <div class="check">
+              <input class="buttons" id="cocaine" type="checkbox" name="drug" value="Cocaine">
+              <label for="cocaine">Cocaine</label>
+            </div>
+          </div>
+
+          <div class="circle">
+            <div class="check">
+              <input class="buttons" id="mdma" type="checkbox" name="drug" value="MDMA">
+              <label for="mdma">MDMA</label>
+            </div>
+          </div>
+
+          <div class="circle">
+            <div class="check">
+              <input class="buttons" id="xanax" type="checkbox" name="drug" value="Xanax">
+              <label for="xanax">Xanax</label>
+            </div>
+          </div>
+          <div class="clearfloat"></div>
+
+          <div id="submit_button">
+            <input type ="submit" value="Submit">
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </body>
+</html>
