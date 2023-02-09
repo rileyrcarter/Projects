@@ -5,10 +5,10 @@
 - Mobile application implementation of classic Minesweeper game.
 
 ### Technical Specifications:
-######Languages and Tools
+###### Languages and Tools
 - Android, XML, Java, Android Studio
 
-######Recommended Versions
+###### Recommended Versions
 - Android Studio Chipmunk | 2021.2.1.
 - API level 24.
 - Android Virtual Device (AVD): Pixel 2 + Nougat 24 (Android 7.0).
