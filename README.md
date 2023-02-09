@@ -1,6 +1,9 @@
 # Riley Carter's Software Developer Portfolio
 
-## Technical Skills Overview:
+#### Projects Overview:
+- Web Application Development: LinkBucket, Hackathon
+- Mobile Application Development: Minesweeper, EventMe
+- Cognitive Architecture Model: Rock Paper Scissors
 
 #### Programming Languages: 
 -	Java
