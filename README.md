@@ -3,6 +3,7 @@
 #### Projects Overview:
 - Web Application Development: LinkBucket, Hackathon
 - Mobile Application Development: Minesweeper, EventMe
+- Object Oriented Design: Scrabble Game
 - Cognitive Architecture Model: Rock Paper Scissors
 
 #### Programming Languages: 
