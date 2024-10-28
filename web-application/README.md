@@ -1,31 +1,28 @@
-# LinkBucket Web Application
+## Full Stack Web App
+    HTML, CSS, Java, Javascript, JDBC, SQL, mySQL, Apache Tomacat Server, Eclipse
 
-### Description:
-- Web Application that allows users to post links to buckets and share their buckets with others.
-- Team of 6 software developers working for ~2 months.
-- Project for a Principles of Software Development course in Spring 2022.
+### Overview
 
-### Technical Specifications:
-###### Languages & Tools
-- HTML&CSS, Java, Javascript, JDBC, SQL, mySQL, Apache Tomcat
+- Web application and SQL database built for a Software Development course in Spring 2022.
+- Team of 6 software developers working for 2 months.
 
-###### Software Requirements
-- Modern Operating System: Windows 7-10, macOS Monterey etc.
-- Browser: supports Javascript and HTML5
-- IDE: Latest Eclipse version installed
-- Server: Apache Tomcat v9.0 at localhost:8080
+<br>
 
-###### Hardware Requirements (Minimum)
-- Processor: minimum 1.6 GHz CPU
-- 4GB RAM
-- 1x40 GB of free space or more
-
-### Requirements:
-- Login functionality and central server to authenticate.
-- Users can interact with software as guest but experience limited functionality compared to authenticated users.
-- Users must be able to register so they can become an authenticated user.
-- When a user registers, the data should be stored in a database on the server.
-- The program must have multi-threaded and network functionality.
-- The program must connect to a database (MySql) that persistently stores all of the data.
+### Functional Requirements
+- User shall register for an account and become an authenticated user.
+- User data is maintained in a database on the server.
+- After registration, user shall login and central server authenticates.
+- User may access the app as a guest.
+- Authenticated user shall have extra features compared to a guest user.
+- User may create and share a 'bucket' of links, specifying attributes, such as Bucket Title, Link, and Link Description.
+- The program shall have multi-threaded and network functionality.
 
 
+### Technical Specifications
+- Languages: Java, Javscript
+- Relational Database: SQL
+- Server: Apache Tomcat v9.0
+- IDE: Eclipse
+- RDBMS: mySQL
+- Operating System: Windows 7-10, macOS Monterey etc.
+- Browser: Javascript and HTML5 support
