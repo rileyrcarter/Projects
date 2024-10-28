@@ -5,8 +5,8 @@
 `/portfolio-application`
 > React App
 
-`/hackathon-web-application`
-> Web App Hackathon Project
+`/web-application`
+> Full Stack Web App
 
 `/minesweeper-application`
 > Android App Minesweeper Game
@@ -14,8 +14,8 @@
 `/rock-paper-scissors`
 > Cognitive Architecture Model
 
-`/web-application`
-> Full Stack Web App
+`/hackathon-web-application`
+> Web App Hackathon Project
 
 <br>
 
