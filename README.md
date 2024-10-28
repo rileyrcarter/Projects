@@ -1,10 +1,23 @@
-# Riley Carter's Software Developer Portfolio
+# Riley Carter's Software Portfolio
 
-#### Projects Overview:
-- Web Application Development: LinkBucket, Hackathon
-- Mobile Application Development: Minesweeper, EventMe
-- Object Oriented Design: Scrabble Game
-- Cognitive Architecture Model: Rock Paper Scissors
+### Project Directories Overview
+
+`/portfolio-application`
+> React App
+
+`/hackathon-web-application`
+> Web App Hackathon Project
+
+`/minesweeper-application`
+> Android App Minesweeper Game
+
+`/rock-paper-scissors`
+> Cognitive Architecture Model
+
+`/web-application`
+> Full Stack Web App
+
+<br>
 
 #### Programming Languages: 
 -	Java
@@ -17,6 +30,7 @@
 -	XML
 
 #### Tools:
+- Git & GitHub
 -	React
 -	TensorFlow 2.0 & Keras
 -	Google Cloud Platform
@@ -25,16 +39,8 @@
 
 #### Methods:
 -	Object Oriented Design
-- UX Design
+- UI/UX Design
 -	Agile Development
 - Test-Driven Development
 -	Complexity Analysis
-
-#### Collaboration:
--	Git & GitHub Version Control
-- G Suite
-- Zoom
-- Monday
-- Trello
-- Slack
-- Discord
+-	Version Control
